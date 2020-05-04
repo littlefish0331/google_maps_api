@@ -1,7 +1,7 @@
 # README
 
-https://www.oxxostudio.tw/articles/201707/google-maps-1.html
-https://www.oxxostudio.tw/list.html
+<!-- https://www.oxxostudio.tw/articles/201707/google-maps-1.html
+https://www.oxxostudio.tw/list.html -->
 
 ## 緣由
 
@@ -24,7 +24,7 @@ https://www.oxxostudio.tw/list.html
 
 每一個blog會放到一個資料夾中，以XX_YYYYMMDD作為資料夾名稱。(XX: 為blog的依序編號、YYYYMMDD: 操作學習日期)
 
-- reference/: 放入所有參考資料
+- reference/: 放入所有參考資料(即下面的列表)
 
 ## 所有參考文章列表
 

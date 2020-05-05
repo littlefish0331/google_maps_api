@@ -47,4 +47,23 @@
 
 **Google javascript maps的function:**
 
-- new google.maps.Marker()
+- new google.maps.Marker()，部份參數
+  - position: 放置經緯度
+  - map: 地圖物件，new google.maps.Map()
+  - animation: marker的動畫選項。google.maps.Animation.DROP, google.maps.Animation.BOUNCE
+  - label: {text: '文字', color: "顏色"}
+  - icon: 代替marker的圖案，可為url or local path
+    - url
+    - scaledSize: scaled size
+    - origin
+    - anchor
+  - draggable: 可否移動marker。true。
+  - zIndex: 幫助圖層順序設定。
+
+下面是我看網路範例的，沒有到很多，但是加減學一下。  
+可以從 demo07.html 裡面做學習，寫的很不錯~
+
+- google.maps.event.addDomListener()
+  - 有幾個狀態可以監聽。load
+- google.maps.event.addListener()
+  - 有幾個狀態可以監聽。mouseout, mouseover

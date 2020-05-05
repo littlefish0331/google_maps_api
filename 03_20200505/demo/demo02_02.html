@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    
+<head>
+  <meta charset="UTF-8">
+  <title>demo02 - 地圖標記動畫 - marker 不斷彈跳</title>
+  <style>
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #map {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script>
+  var map;
+
+  function initMap() {
+    var position = {
+      lat: 24.795353, 
+      lng: 120.980546
+    };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 18,
+      center: position
+    });
+    var marker = new google.maps.Marker({
+      position: position,
+      map: map,
+      animation: google.maps.Animation.BOUNCE
+    });
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5OA5CUIv9rGaH8qKTl2QHFwt4zrWtLN0&callback=initMap" async defer></script>
+  
+</body>
+
+</html>

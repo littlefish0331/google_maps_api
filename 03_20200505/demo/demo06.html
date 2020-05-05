@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    
+<head>
+  <meta charset="UTF-8">
+  <title>demo05 - 可拖曳地圖標記</title>
+  <style>
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #map_canvas {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="map_canvas"></div>
+  <script>
+  var map;
+
+  function initMap() {
+    var position1 = {
+      lat: 24.795353, 
+      lng: 120.980546
+    };
+    var position2 = {
+      lat: 24.795400, 
+      lng: 120.980600
+    };
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+      zoom: 18,
+      center: position1
+    });
+    var marker1 = new google.maps.Marker({
+      position: position1,
+      map: map,
+      animation: google.maps.Animation.BOUNCE,
+      icon: {
+        url: './128px.png', // url
+        scaledSize: new google.maps.Size(50, 50), // scaled size
+        origin: new google.maps.Point(0, 0), // origin
+        anchor: new google.maps.Point(0, 0) // anchor
+      },
+      draggable: true,
+      zIndex: 1
+    });
+    var marker2 = new google.maps.Marker({
+      position: position2,
+      map: map,
+      animation: google.maps.Animation.BOUNCE,
+      icon: {
+        url: './128px.png', // url
+        scaledSize: new google.maps.Size(50, 50), // scaled size
+        origin: new google.maps.Point(0, 0), // origin
+        anchor: new google.maps.Point(0, 0) // anchor
+      },
+      draggable: true,
+      zIndex: 2
+    });
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5OA5CUIv9rGaH8qKTl2QHFwt4zrWtLN0&callback=initMap" async defer></script>
+</body>
+
+</html>

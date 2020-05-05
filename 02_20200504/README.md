@@ -8,6 +8,8 @@
 ## 檔案功能
 
 - demo01: 載入地圖
+- demo02: 學習 MapOptions 控制項調整
+- demo03: 學習 MapOptions 控制項調整
 
 - 官方版 demo01
 ![blog demo 01](./demo/blog_demo01.jpg)

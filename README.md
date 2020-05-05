@@ -33,7 +33,9 @@ https://www.oxxostudio.tw/list.html -->
 
 - [Google Maps API - 網頁載入地圖(起手式)](https://www.oxxostudio.tw/articles/201707/google-maps-1.html)
 - [Google Maps API - 使用地圖與基本設定](https://www.oxxostudio.tw/articles/201707/google-maps-2-map-class.html)
+  - new google.maps.Map()
 - [Google Maps API - 地圖標記(Marker)](https://www.oxxostudio.tw/articles/201801/google-maps-3-marker.html)
+  - new google.maps.Marker()
 - [Google Maps API - 多個地圖標記](https://www.oxxostudio.tw/articles/201801/google-maps-4-more-markers.html)
 - [Google Maps API - 地圖標記點擊事件](https://www.oxxostudio.tw/articles/201801/google-maps-5-marker-click-event.html)
 - [Google Maps API - 設計地圖標記圖案](https://www.oxxostudio.tw/articles/201801/google-maps-6-marker-image.html)

@@ -29,7 +29,8 @@ https://www.oxxostudio.tw/list.html -->
 ## 所有參考文章列表
 
 主要資料都是參考這個正國推薦給我的網站 [OXXO.STUDIO](https://www.oxxostudio.tw/)，  
-依循人家的足跡好好認識一下 Google Maps API 吧!!
+依循人家的足跡好好認識一下 Google Maps API 吧!!  
+achive search: google map，共20篇文章。
 
 - [Google Maps API - 網頁載入地圖(起手式)](https://www.oxxostudio.tw/articles/201707/google-maps-1.html)
 - [Google Maps API - 使用地圖與基本設定](https://www.oxxostudio.tw/articles/201707/google-maps-2-map-class.html)
